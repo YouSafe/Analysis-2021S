@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@neilsustc/markdown-it-katex": "^0.6.1",
+    "markdown-it": "^10.0.0",
+    "vitepress": "^0.12.2"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
