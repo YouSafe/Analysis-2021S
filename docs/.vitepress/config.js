@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/Analysis-2021S/",
   head: [
     [
       "link",
