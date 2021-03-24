@@ -16,6 +16,19 @@ module.exports = {
           "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css",
       },
     ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/copy-tex.css",
+      },
+    ],
+    [
+      "script",
+      {
+        src: "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/copy-tex.min.js"
+      }
+    ]
   ],
   title: "Analysis - 2021S",
   markdown: {
