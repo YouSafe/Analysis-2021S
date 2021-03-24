@@ -31,6 +31,11 @@ module.exports = {
     ]
   ],
   title: "Analysis - 2021S",
+  themeConfig: {
+    nav: [
+      { text: 'GitHub Repo', link: 'https://github.com/YouSafe/Analysis-2021S'}
+    ],
+  },
   markdown: {
     // options for markdown-it-anchor
     anchor: { permalink: false },
