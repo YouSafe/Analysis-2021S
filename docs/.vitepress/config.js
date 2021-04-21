@@ -20,17 +20,18 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/copy-tex.css",
+        href: "https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/copy-tex.css",
       },
     ],
     [
       "script",
       {
-        src: "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/copy-tex.min.js"
+        src: "https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/copy-tex.min.js"
       }
     ]
   ],
   title: "Analysis - 2021S",
+  description: 'Analysis - 2021S',
   themeConfig: {
     nav: [
       { text: 'GitHub Repo', link: 'https://github.com/YouSafe/Analysis-2021S'}
