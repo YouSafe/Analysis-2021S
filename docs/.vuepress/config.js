@@ -32,10 +32,14 @@ module.exports = {
   ],
   title: "Analysis - 2021S",
   description: 'Analysis - 2021S',
+  theme: 'default-prefers-color-scheme',
   themeConfig: {
+    overrideTheme: 'dark',
+    search: false,
     nav: [
       { text: 'GitHub Repo', link: 'https://github.com/YouSafe/Analysis-2021S'}
     ],
+    sidebar: 'auto'
   },
   markdown: {
     // options for markdown-it-anchor
@@ -44,13 +48,14 @@ module.exports = {
     // options for markdown-it-toc
     toc: { includeLevel: [1, 2, 3] },
 
-    config: (md) => {
+    extendMarkdown: md => {
       // use more markdown-it plugins!
       mk = require("@neilsustc/markdown-it-katex");
 
       md.use(mk, { throwOnError: false, errorColor: " #cc0000" });
 
       // https://github.com/Maorey/Blog/blob/ac5ced6deb3bbec689c672ec425640a0fba598f3/docs/.vitepress/config.js#L51
+
 
       const mdRender = md.render;
       md.render = function () {
