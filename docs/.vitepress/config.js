@@ -31,6 +31,7 @@ module.exports = {
     ]
   ],
   title: "Analysis - 2021S",
+  description: 'Analysis - 2021S',
   themeConfig: {
     nav: [
       { text: 'GitHub Repo', link: 'https://github.com/YouSafe/Analysis-2021S'}
