@@ -28,3 +28,26 @@
 
 [Z10](./UE7/Z10), [184](./UE7/184), [191](./UE7/191), [215](./UE7/215), [227](./UE7/227), [229](./UE7/229)
 
+## UE8
+
+[197](./UE8/197), [Z13](./UE8/Z13), [204](./UE8/204), [Z16](./UE8/Z16), [236](./UE8/236), [Z17](./UE8/Z17)
+
+## Übungstest 1 
+
+[2019S Fischl](./Test1/2019S_Fischl)
+
+[2019S Länger](./Test1/2019S_Laenger)
+
+[2019S Länger 2](./Test1/2019S_Laenger2)
+
+[2018S Länger](./Test1/2018S_Laenger)
+
+[2018S Holzer](./Test1/2018S_Holzer)
+
+[2018S Länger 2](./Test1/2018S_Laenger2.md)
+
+[2017W Eigentaler](./Test1/2017W_Eigentaler.md)
+
+[2017S Eigentaler](./Test1/2017S_Eigentaler.md)
+
+[2017S Länger](./Test1/2017S_Laenger.md)
