@@ -5,36 +5,26 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
         href:
           "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css",
       },
     ],
     [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/copy-tex.css",
-      },
-    ],
-    [
       "script",
       {
-        src: "https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/copy-tex.min.js"
-      }
-    ]
+        src:
+          "https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/copy-tex.min.js",
+      },
+    ],
   ],
   title: "Analysis - 2021S",
-  description: 'Analysis - 2021S',
+  description: "Analysis - 2021S",
   themeConfig: {
     nav: [
-      { text: 'GitHub Repo', link: 'https://github.com/YouSafe/Analysis-2021S'}
+      {
+        text: "GitHub Repo",
+        link: "https://github.com/YouSafe/Analysis-2021S",
+      },
     ],
   },
   markdown: {
@@ -46,7 +36,7 @@ module.exports = {
 
     config: (md) => {
       // use more markdown-it plugins!
-      mk = require("@neilsustc/markdown-it-katex");
+      mk = require("@traptitech/markdown-it-katex");
 
       md.use(mk, { throwOnError: false, errorColor: " #cc0000" });
 
