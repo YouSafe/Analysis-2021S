@@ -5,15 +5,13 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
-        href:
-          "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css",
+        href: "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css",
       },
     ],
     [
       "script",
       {
-        src:
-          "https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/copy-tex.min.js",
+        src: "https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/copy-tex.min.js",
       },
     ],
   ],
@@ -38,7 +36,11 @@ module.exports = {
       // use more markdown-it plugins!
       mk = require("@traptitech/markdown-it-katex");
 
-      md.use(mk, { throwOnError: false, errorColor: " #cc0000" });
+      md.use(mk, {
+        throwOnError: false,
+        errorColor: " #cc0000",
+        displayMode: true,
+      });
 
       // https://github.com/Maorey/Blog/blob/ac5ced6deb3bbec689c672ec425640a0fba598f3/docs/.vitepress/config.js#L51
 
