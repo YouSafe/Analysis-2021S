@@ -5,6 +5,13 @@ module.exports = {
       "link",
       {
         rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
         href: "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css",
       },
     ],
@@ -34,7 +41,7 @@ module.exports = {
 
     config: (md) => {
       // use more markdown-it plugins!
-      mk = require("@traptitech/markdown-it-katex");
+      mk = require("@neilsustc/markdown-it-katex");
 
       md.use(mk, {
         throwOnError: false,
