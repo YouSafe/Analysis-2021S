@@ -1,0 +1,1 @@
+import{o as t,c as e,b as r}from"./app.826e633d.js";const n='{"title":"","description":"","frontmatter":{},"relativePath":"UE1/17.md","lastUpdated":1621196838527}',a={},o=r("p",null,"keine Lösung",-1);a.render=function(r,n,a,d,i,l){return t(),e("div",null,[o])};export default a;export{n as __pageData};
