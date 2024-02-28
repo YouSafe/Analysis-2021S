@@ -9,5 +9,4 @@
 - https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
 
 ## Erweiterungen für die Zukunft
-- Dark Theme: https://github.com/vuejs/vitepress/issues/251#issuecomment-802147322
 - Sidebar mit allen Übungen und Beispielen
